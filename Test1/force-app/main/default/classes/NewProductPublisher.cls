@@ -14,6 +14,7 @@ public class NewProductPublisher {
         // Check if the event was published successfully
         if (result.isSuccess()) {
             System.debug('Platform Event Published Successfully');
+            System.debug('Platform Event Published Successfully');
         }
         else {
             for (Database.Error err : result.getErrors()) {
